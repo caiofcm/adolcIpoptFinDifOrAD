@@ -198,7 +198,7 @@ bool cfcmINLP::eval_f(Index n, const Number *x, bool new_x, Number &obj_value)
   //   Jaux += 1/sigma * (Ccalc - Cmes) * (Ccalc - Cmes);
   // }
   // obj_value = Jaux;
-  if (this->popt != NULL)
+  if (this->popt != NULL) //stupid error -> Requires the brackets!
     popt->eval_f(n, const_cast<double*>(x), obj_value);
   else if (this->adopt != NULL)
     function(tag_f,1,n,const_cast<double*>(x), &obj_value);
