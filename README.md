@@ -4,6 +4,10 @@ ADOLC and IPOPT wrapper for finite difference or Automatic Differentiation.
 
 A converting tool from regular double to adouble is provided.
 
+Based on the example from [Ipopt distribution](http://web.mit.edu/ipopt_v3.11.6/doc/documentation.pdf)
+
+This is just for my own future reference.
+
 [The optimization test case](http://ab-initio.mit.edu/wiki/index.php/NLopt_Tutorial "NLP Example")
 
 ## Tested on:
