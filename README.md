@@ -26,6 +26,7 @@ This is just for my own future reference.
 
 - Test on debian
 - Check how the Ipopt was installed
+- Add the brackets to if statement!
 
 *(Note: was used the [newcppproject.sh](https://gist.github.com/caiofcm/83d4d3d2370546d846454ff74dea7348) to generate the Makefile)*
 
